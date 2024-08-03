@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+:root {
+  /*========== FONT SIZES =============*/
+  --fs-xxl: 64px;
+  --fs-xl: 40px;
+  --fs-lg: 24px;
+  --fs-md: 20px;
+  --fs-sm: 18px;
+  /* ============= COLORS  =============*/
+  --text-red: #ff0a00;
+  --text-offblack: #010101;
+  --text-skyblue: #008ff8;
+  --text-navyblue: #124068;
+  --text-skin: #e9965a;
+  --text-gray: #cccccc;
+  --text-purple: #630df3;
+  --text-darkblue: #090e27;
+}
+/* ====== FONT SIZE CLASSES =======*/
+.fs_xxl {
+  font-size: var(--fs-xxl);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+
+/* ======= COLOR CLASSES ======= */
+.text_red {
+  color: var(--text-red);
+}
+.text_skyblue {
+  color: var(--text-skyblue);
+}
+.text_offblack {
+  color: var(--text-offblack);
+}
+.text_darkblue {
+  color: var(--text-darkblue);
+}
+.text_navyblue {
+  color: var(--text-navyblue);
+}
+.text_skin {
+  color: var(--text-skin);
+}
+.text_purple {
+  color: var(--text-purple);
+}
+/* ======== BACKGROUND COLORS CLASSES ====== */
+.bg_red {
+  background-color: var(--text-red);
+}
+.bg_skyblue {
+  background-color: var(--text-skyblue);
+}
+.bg_navyblue {
+  background-color: var(--text-navyblue);
+}
+.bg_purple {
+  background-color: var(--text-purple);
+}
+.bg_gray {
+  background-color: var(--text-gray);
+}
+/* ====== FONT FAMILY CLASSES =========== */
+.font_glasio {
+  font-family: "Gelasio", serif;
+}
+
+.font_inter {
+  font-family: "Inter", sans-serif;
+}
+/* ======== LINE HEIGHTS ============ */
+.leading_120 {
+  line-height: 120%;
+}
+.leading_135 {
+  line-height: 135%;
+}
+.leading_140 {
+  line-height: 140%;
+}
+.leading_150 {
+  line-height: 150%;
+}
+.leading_152 {
+  line-height: 152%;
+}
+/* ===== CUSTOM CONTAINER ===== */
+.custom_container {
+  max-width: 1172px;
+  margin: 0px auto;
+  padding: 0px 16px;
+}
+
+.section_width {
+  max-width: 1290px;
+}
